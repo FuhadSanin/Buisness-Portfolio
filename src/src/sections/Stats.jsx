@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from "react"
 import { DollarSign, Globe, Users, Activity } from "lucide-react" // Importing icons
+import WorksProvide from "./WorksProvide"
 
 const Stats = () => {
   const stats = [
@@ -91,5 +92,4 @@ const Stats = () => {
     </div>
   )
 }
-
 export default Stats

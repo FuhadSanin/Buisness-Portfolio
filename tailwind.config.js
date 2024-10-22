@@ -1,7 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-    darkMode: ["class"],
-    content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
+  darkMode: ["class"],
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
   	extend: {
   		keyframes: {
@@ -12,10 +12,19 @@ export default {
   				'100%': {
   					transform: 'scale(1.1)'
   				}
+  			},
+  			marquee: {
+  				'0%': {
+  					transform: 'translateX(100%)'
+  				},
+  				'100%': {
+  					transform: 'translateX(-100%)'
+  				}
   			}
   		},
   		animation: {
-  			zoomSlow: 'zoomSlow 20s ease-in-out infinite'
+  			zoomSlow: 'zoomSlow 20s ease-in-out infinite',
+  			marquee: 'marquee 15s linear infinite'
   		},
   		borderRadius: {
   			lg: 'var(--radius)',
