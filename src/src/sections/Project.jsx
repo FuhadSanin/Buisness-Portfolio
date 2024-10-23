@@ -47,7 +47,7 @@ const Project = () => {
   useEffect(() => {
     const handleScroll = () => {
       const scrollTop = document.documentElement.scrollTop
-      setScrollSpeed(scrollTop / 50) // Adjust this value for desired sensitivity
+      setScrollSpeed(scrollTop / 100) // Adjust this value for desired sensitivity
     }
 
     window.addEventListener("scroll", handleScroll)
