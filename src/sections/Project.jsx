@@ -58,13 +58,13 @@ const Project = () => {
   }, [])
 
   return (
-    <div className="h-fit bg-white pt-12 pb-12 px-24">
+    <div className="h-fit bg-black pt-6 pb-12 lg:px-24 px-10">
       <Marquee autoFill={true} speed={scrollSpeed} className="w-full">
         <h1
-          className="w-screen text-center text-[160px] font-semibold relative font-serif"
-          style={{ WebkitTextStroke: "1px black", color: "white" }}
+          className="w-screen text-center lg:text-[160px] text-[80px] font-semibold relative font-serif"
+          style={{ WebkitTextStroke: "1px white", color: "black" }}
         >
-          PROJECT DEMOS
+          PROJECT {"   "}
         </h1>
       </Marquee>
       <div className="flex flex-wrap justify-around space-y-10 pt-10">
@@ -76,7 +76,7 @@ const Project = () => {
               alt={project.title}
             />
             <div className="flex items-center space-x-4">
-              <CardTitle>{project.title}</CardTitle>
+              <CardTitle className="text-white">{project.title}</CardTitle>
               {
                 // Display tags
                 project.tags.map((tag, i) => (

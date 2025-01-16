@@ -1,7 +1,7 @@
 import { useState } from "react"
-import hero from "../../assets/hero.jpg"
-import hero2 from "../../assets/test.avif"
-import video from "../../assets/studio-5.mp4"
+import hero from "@/assets/hero.jpg"
+import hero2 from "@/assets/test.avif"
+import video from "@/assets/studio-5.mp4"
 
 import { Menu } from "lucide-react"
 import { Button } from "../components/ui/button"
@@ -60,12 +60,13 @@ const HeroSection = () => {
 
           <div className="text-center">
             <h1 className="text-4xl font-semibold tracking-tight text-white sm:text-7xl">
-              Beautiful websites with less work
+              Your Vision, Our Expertise
             </h1>
             <p className="mt-6 text-lg leading-8 text-white">
-              Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui
-              lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat
-              fugiat aliqua.
+              We are a team of dedicated professionals passionate about
+              delivering tailor-made solutions that meet your business needs.
+              From CRM tools to slot booking systems, we craft innovative
+              solutions that drive success.
             </p>
           </div>
         </div>

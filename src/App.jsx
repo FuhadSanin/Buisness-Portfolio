@@ -1,17 +1,19 @@
-import "./App.css"
-import Footer from "./src/sections/Footer"
-import HeroSection from "./src/sections/HeroSection"
-import WorksProvide from "./src/sections/WorksProvide"
-import Stats from "./src/sections/Stats"
-import Project from "./src/sections/Project"
+import HeroSection from "@/sections/HeroSection"
+import WorksProvide from "@/sections/WorksProvide"
+import Stats from "@/sections/Stats"
+import Project from "@/sections/Project"
+import Testimonials from "@/sections/Testimonials"
+import Contact from "@/sections/Contact"
 
 function App() {
   return (
     <>
       <HeroSection />
+      <Project />
       <WorksProvide />
       <Stats />
-      <Project />
+      <Testimonials />
+      <Contact />
     </>
   )
 }
